@@ -1,20 +1,35 @@
-name: Deploy MkDocs
+name: Deploy MkDocs (Official Pages)
 on:
-  push: { branches: ["main", "master"] }
+  push:
+    branches: ["main"]
 permissions:
-  contents: write
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 jobs:
-  build-deploy:
+  build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
-      - run: pip install mkdocs-material
+        with: { python-version: '3.11' }
+      - run: pip install mkdocs-material mkdocs-material-extensions
       - run: mkdocs build --strict
-      - uses: peaceiris/actions-gh-pages@v3
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          publish_dir: ./site
+      - uses: actions/upload-pages-artifact@v3
+        with: { path: "./site" }
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
+
 
 # # This is a basic workflow to help you get started with Actions
 
