@@ -11,7 +11,7 @@ tags: [robotics, embedded, pcb]
 What you built and why; success criteria.
 
 ## 2) Architecture
-![Block diagram](../assets/img/example-block.png){ width=780 }
+<!-- ![Block diagram](../assets/img/example-block.png){ width=780 } -->
 
 ## 3) Mechanical & Electronics
 CAD renders; PCB renders; link iBOM/Kitspace if available.
