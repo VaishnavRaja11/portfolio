@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 site_name: Vaishnav Raja
 site_description: Portfolio of Vaishnav Raja's engineering projects and resume.
 site_author: Vaishnav Raja
 site_url: https://VaishnavRaja11.github.io/portfolio
+=======
+site_name: Vaishnav Raja – Engineering Portfolio
+site_url: https://VaishnavRaja.github.io/portfolio
+>>>>>>> f77350093e14a0976fa15589fc9090debf432815
 repo_url: https://github.com/VaishnavRaja11/portfolio
 theme:
   name: material
