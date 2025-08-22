@@ -1,0 +1,62 @@
+/* Vertical project block */
+.project { 
+  margin: 1.25rem 0 2rem; 
+}
+
+/* Horizontal, touch-friendly scroller */
+.media-strip {
+  display: flex;
+  gap: 0.75rem;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  padding: 0.25rem 0;
+}
+
+.media-strip > a {        /* each slide */
+  flex: 0 0 auto;
+  scroll-snap-align: start;
+  display: block;
+  text-decoration: none;
+}
+
+/* Make mixed images look consistent */
+.media-strip img {
+    /* width: 360px;           uniform card width */
+    height: 300px;          /* uniform card height */
+    object-fit: cover;      /* crop to fill the card neatly */
+    border-radius: 5px;
+    box-shadow: 0 1px 6px rgba(0,0,0,0.08);
+    display: block;
+}
+
+/* Mobile tweaks */
+@media (max-width: 640px) {
+  .media-strip img { width: 300px; height: 190px; }
+}
+
+/* CTA box spacing */
+.cta{
+  margin: 1rem 0 0;          /* space outside the box */
+  padding: 1.25rem;            /* space inside the box */
+  border-radius: 14px;
+  background: var(--md-code-bg-color);
+  border: 1px solid rgba(0,0,0,.08);
+}
+.cta .grid{
+  display: grid;
+  grid-template-columns: 1.5fr 1fr;
+  gap: 1.5rem;                  /* space between the two columns */
+  align-items: start;
+}
+
+/* Tighten vertical rhythm inside the box */
+.cta h2{ margin: 0 0 .4rem; line-height: 1.2; }
+.cta h3{ margin: .15rem 0 .35rem; line-height: 1.25; }
+.cta p { margin: .35rem 0; line-height: 1.45; }
+.cta ul{ margin: .3rem 0 0; padding-left: 1.1rem; }
+.cta li{ margin: .18rem 0; }
+
+/* Ensure the very first/last elements don’t add stray space */
+.cta > .grid > div > :first-child{ margin-top: 0; }
+.cta > .grid > div > :last-child { margin-bottom: 0; }
+
