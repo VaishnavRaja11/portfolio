@@ -66,8 +66,8 @@ A curated set of builds across **autonomy**, **robotics**, **embedded electronic
 - **Outcome:** Faster material movement and fewer pick errors; compelling demo for stakeholders/customers.
 
 <div class="media-strip">
-  <a href="../assets/img/iWarehouse/iw2.png"><img src="../assets/img/iWarehouse/iw2.png" alt="iWarehouse – bin weights and count display"></a>
-  <a href="../assets/img/iWarehouse/iw1.png"><img src="../assets/img/iWarehouse/iw1.png" alt="iWarehouse – pick-to-light lanes with AGV"></a>
+  <a href="../assets/img/iwarehouse/iw2.png"><img src="../assets/img/iwarehouse/iw2.png" alt="iWarehouse – bin weights and count display"></a>
+  <a href="../assets/img/iwarehouse/iw1.png"><img src="../assets/img/iwarehouse/iw1.png" alt="iWarehouse – pick-to-light lanes with AGV"></a>
 </div>
 </div>
 
