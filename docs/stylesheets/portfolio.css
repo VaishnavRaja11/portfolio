@@ -60,3 +60,76 @@
 .cta > .grid > div > :first-child{ margin-top: 0; }
 .cta > .grid > div > :last-child { margin-bottom: 0; }
 
+.backbar{
+  margin-top: 1.25rem;
+  padding-top: .75rem;
+  border-top: 1px solid rgba(0,0,0,.08);
+}
+.backbar .md-button{ margin-right: .5rem; }
+
+/* Text left | media right */
+.side-by-side{
+  display:grid;
+  grid-template-columns: 1.6fr 1fr;   /* left text | right media */
+  gap: 1rem;
+  align-items:start;
+  margin: 1rem 0 1.5rem;
+}
+
+/* Single figure on the right */
+.side-figure img{
+  width: 100%;
+  height: auto;
+  border-radius: 6px;
+  box-shadow: 0 1px 6px rgba(0,0,0,.08);
+  display: block;
+}
+
+/* Stack multiple images on the right (scrolls if tall) */
+.side-stack{
+  display:flex;
+  flex-direction:column;
+  gap:.75rem;
+  max-height: 640px;           /* make the right column scroll if needed */
+  overflow:auto;
+}
+.side-stack img{
+  width:100%;
+  height:auto;
+  object-fit:cover;
+  border-radius:6px;
+  box-shadow:0 1px 6px rgba(0,0,0,.08);
+}
+
+/* Mobile: stack top-to-bottom */
+@media (max-width: 920px){
+  .side-by-side{ grid-template-columns: 1fr; }
+}
+
+/* Responsive YouTube/Vimeo etc. with adjustable size */
+.video-embed{
+  position: relative;
+  width: 100%;
+  max-width: var(--maxw, 720px);  /* ← set a cap; stays responsive below this */
+  margin: .75rem auto;            /* center; use margin-left:0 to left align */
+}
+.video-embed::before{
+  content: "";
+  display: block;
+  padding-top: var(--ratio, 56.25%); /* 16:9 default; change via --ratio */
+}
+.video-embed > iframe{
+  position: absolute; inset: 0;
+  width: 100%; height: 100%;
+  border: 0; border-radius: 10px;
+}
+
+
+.pdf-embed { position: relative; height: 80vh; margin: .5rem 0 1.25rem; }
+.pdf-embed iframe { position:absolute; inset:0; width:100%; height:100%; border:0; border-radius:10px; box-shadow:0 1px 6px rgba(0,0,0,.08); }
+
+.grid.cards .card:hover{ background:#ffecc7 !important; transform:scale(1.01) !important; }
+
+
+
+

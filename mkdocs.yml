@@ -10,8 +10,8 @@ theme:
     - navigation.tabs
     # - navigation.top
     - navigation.instant
-    # - navigation.sections
-    - navigation.tabs
+    - navigation.sections
+    # - navigation.tabs
     - search.suggest
     - content.code.copy
 plugins:
@@ -31,9 +31,11 @@ markdown_extensions:
   - pymdownx.superfences
   - admonition
   - footnotes
-  - pymdownx.emoji: 
+  - pymdownx.emoji:
       emoji_index: !!python/name:material.extensions.emoji.twemoji
       emoji_generator: !!python/name:material.extensions.emoji.to_svg
+  - pymdownx.arithmatex:
+      generic: true
   
 extra:
   social:
@@ -59,3 +61,5 @@ extra:
     #   link: mailto:youremail@example.com
     #   name: Email
 
+# extra_javascript:
+  # - javascripts/card-hit.js

@@ -1,11 +1,11 @@
 # Vaishnav Raja – Robotics Engineer
 
 ## About me
-Hello there! I’m **Vaishnav Raja** — a Boston-based **mechatronics/robotics engineer** with experience in **hardware-first systems end-to-end** (CAD → PCB → firmware → control → test). I’ve built AGVs with pick-to-light and stock tracking (Accenture, *Best Innovator Award*), IoT inventory systems, a **SAE BAJA** ATV (state runner-ups), and integrations on **KUKA** and **Mitsubishi** arms. I’m comfortable across **CAD/CAE**, **circuit design**, and **Python/C** for embedded and controls.
+Hello there! I’m Vaishnav Raja — a Boston-based mechatronics/robotics engineer with experience in hardware-first systems end-to-end (CAD → PCB → firmware → control → test). I’ve built AGVs with pick-to-light and stock tracking (Accenture, *Best Innovator Award*), IoT inventory systems, a SAE BAJA ATV (state runner-ups), and integrations on KUKA and Mitsubishi arms. I’m comfortable across CAD/CAE, circuit design, and Python/C for embedded and controls.
 
-I find meaning in work that matters. I do my best building things that could **bend the future in a better direction**—hands-on, measurable impact, and frequent demos in the real world. Across various analysis' , mechatronics design, rapid prototyping, and software integration, I’m well suited to the tempo and ambiguity of R&D work.
+I find meaning in work that matters. I do my best building things that could bend the future in a better direction—hands-on, measurable impact, and frequent demos in the real world. Across various analysis' , mechatronics design, rapid prototyping, and software integration, I’m well suited to the tempo and ambiguity of R&D work.
 
-Beyond robotics, I’m not always the first to start a chat, but once we get going, I’m all in. I enjoy playing **basketball, climbing, motorbiking, and trying new activities.**
+Beyond robotics, I’m not always the first to start a chat, but once we get going, I’m all in. I enjoy playing basketball, climbing, motorbiking, and trying new activities.
 <!-- These activities keep me creative and resilient — qualities I bring into engineering challenges.   -->
 ---
 <!-- I specialize in **robotics, embedded electronics, and controls** — designing, building, and validating systems end-to-end.   -->
