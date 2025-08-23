@@ -1,40 +1,30 @@
 # Vaishnav Raja – Robotics Engineer
 
-## About me
-Hello there! I’m Vaishnav Raja — a Boston-based mechatronics/robotics engineer with experience in hardware-first systems end-to-end (CAD → PCB → firmware → control → test). I’ve built AGVs with pick-to-light and stock tracking (Accenture, *Best Innovator Award*), IoT inventory systems, a SAE BAJA ATV (state runner-ups), and integrations on KUKA and Mitsubishi arms. I’m comfortable across CAD/CAE, circuit design, and Python/C for embedded and controls.
+<div class="side-by-side" markdown>
+<div markdown>
 
-I find meaning in work that matters. I do my best building things that could bend the future in a better direction—hands-on, measurable impact, and frequent demos in the real world. Across various analysis' , mechatronics design, rapid prototyping, and software integration, I’m well suited to the tempo and ambiguity of R&D work.
+## About me
+I’m Vaishnav Raja, a Boston-based mechatronics/robotics engineer who likes taking ideas all the way to working software-Perseption, RL and hardware—CAD, PCB, firmware, control, and tests that hold up in front of people. I’ve built AGVs with pick-to-light and stock tracking at Accenture (Best Innovator Award), IoT inventory systems, a SAE BAJA ATV (state runner-ups), and integrations on KUKA and Mitsubishi arms. On the perception side, I’ve worked on 6-DoF pose for bin-picking and robustness for ORB-SLAM3; on the learning side, I’ve trained RL agents for goal-directed navigation.
+
+I care about work with real impact: hands-on builds, measurable results, and frequent demos. I’m comfortable in ambiguous, fast-paced R&D—balancing analysis, design, rapid prototyping, and software integration to get credible results quickly.
 
 Beyond robotics, I’m not always the first to start a chat, but once we get going, I’m all in. I enjoy playing basketball, climbing, motorbiking, and trying new activities.
 <!-- These activities keep me creative and resilient — qualities I bring into engineering challenges.   -->
 ---
-<!-- I specialize in **robotics, embedded electronics, and controls** — designing, building, and validating systems end-to-end.   -->
-
-<!-- --- -->
-
 ## Quick Navigation
 
 <div class="quick-links" markdown>
 [📄 Resume](resume.md){ .md-button .md-button--primary }
 [⚙️ Projects](projects.md){ .md-button }
 </div>
+</div>
+
+<div class="side-figure">
+  <img src="assets/img/profile1.png" alt="Vaishnav Raja">
+</div>
+
+</div>
 ---
-
-<!-- ---
-
-## What I Do
-
-- **Robotics & Mechatronics** – workspace analysis, multi-arm coordination, IK toolkits.  
-- **Embedded & Electronics** – custom PCBs, EtherCAT controllers, motion drivers.  
-- **AI & Perception** – computer vision, pose estimation, reinforcement learning.  
-- **Integration** – full systems that combine mechanics, electronics, and software.   -->
-
-<!-- ---
-## Outside of Work
-
-
-
---- -->
 <div class="cta" markdown>
 <div class="grid" markdown>
 <!-- RIGHT: Brief, slightly witty pitch + buttons -->
