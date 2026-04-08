@@ -1,4 +1,4 @@
-# Portfolio of Engineering Work
+# Portfolio of Engineering Projects
 
 Used the help of following documentations to setup the portfolio
 - https://www.mkdocs.org/
