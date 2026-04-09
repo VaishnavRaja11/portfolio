@@ -5,23 +5,40 @@ site_url: https://VaishnavRaja11.github.io/portfolio
 repo_url: https://github.com/VaishnavRaja11/portfolio
 theme:
   name: material
+  palette:
+    - scheme: default
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: teal
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+  font:
+    text: Inter
+    code: JetBrains Mono
   features:
     - toc.integrate
     - navigation.tabs
-    # - navigation.top
+    - navigation.top
     - navigation.instant
     - navigation.sections
-    # - navigation.tabs
     - search.suggest
+    - search.highlight
     - content.code.copy
 plugins:
   - search
   - tags
-  # - glightbox
+  - glightbox
 nav:
   - Overview: index.md
   - Resume: resume.md
   - Projects: projects.md
+  - Blogs: blogs.md
   # - Contacts: contact.md
 extra_css:
   - stylesheets/portfolio.css

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/projects/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/resume/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/project_pages/gnss-lidar-slam/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/project_pages/prcv-pose/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/project_pages/rl-escape-room/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+    <url>
+         <loc>https://VaishnavRaja11.github.io/portfolio/project_pages/rsn-orb-slam3/</loc>
+         <lastmod>2026-04-08</lastmod>
+    </url>
+</urlset>

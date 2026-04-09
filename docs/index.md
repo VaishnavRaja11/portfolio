@@ -8,8 +8,6 @@ I’m Vaishnav Raja, a Boston-based mechatronics/robotics engineer who likes tak
 
 I care about work with real impact: hands-on builds, measurable results, and frequent demos. I’m comfortable in ambiguous, fast-paced R&D—balancing analysis, design, rapid prototyping, and software integration to get credible results quickly.
 
-Beyond robotics, I’m not always the first to start a chat, but once we get going, I’m all in. I enjoy playing basketball, climbing, motorbiking, and trying new activities.
-<!-- These activities keep me creative and resilient — qualities I bring into engineering challenges.   -->
 ---
 ## Quick Navigation
 
