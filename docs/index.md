@@ -4,7 +4,7 @@
 <div markdown>
 
 ## About me
-I’m Vaishnav Raja, a Boston-based mechatronics/robotics engineer who likes taking ideas all the way to working software-Perseption, RL and hardware—CAD, PCB, firmware, control, and tests that hold up in front of people. I’ve built AGVs with pick-to-light and stock tracking at Accenture (Best Innovator Award), IoT inventory systems, a SAE BAJA ATV (state runner-ups), and integrations on KUKA and Mitsubishi arms. On the perception side, I’ve worked on 6-DoF pose for bin-picking and robustness for ORB-SLAM3; on the learning side, I’ve trained RL agents for goal-directed navigation.
+I’m Vaishnav Raja, a Boston-based mechatronics and robotics engineer who likes taking ideas all the way to working systems: perception, RL, and hardware across CAD, PCB, firmware, control, and testing that holds up in front of people. I’ve built AGVs with pick-to-light and stock tracking at Accenture (Best Innovator Award), IoT inventory systems, an SAE BAJA ATV (state runner-up), and integrations on KUKA and Mitsubishi arms. On the perception side, I’ve worked on 6-DoF pose for bin-picking and robustness for ORB-SLAM3; on the learning side, I’ve trained RL agents for goal-directed navigation.
 
 I care about work with real impact: hands-on builds, measurable results, and frequent demos. I’m comfortable in ambiguous, fast-paced R&D—balancing analysis, design, rapid prototyping, and software integration to get credible results quickly.
 
@@ -30,7 +30,7 @@ I care about work with real impact: hands-on builds, measurable results, and fre
 
 ## Got notes, ideas, or a role?
 
-If something here sparked a thought, don’t be shy—say hello. I’m always up for any **feedback** to furthur work upon, **fun ideas** to collab together on, or if you’re **hiring** for a role, let's connect.
+If something here sparked a thought, say hello. I’m always up for **feedback** to improve the work, **interesting ideas** to collaborate on, or conversations about roles where this background fits.
 
 </div>
 

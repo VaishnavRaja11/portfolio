@@ -11,7 +11,7 @@ A one-page PDF version is embedded below for quick review. For best quality, use
 </div>
 
 <object
-  data="assets/pdfs/VaishnavRaja_Resume.pdf#view=FitH"
+  data="../assets/pdfs/VaishnavRaja_Resume.pdf#view=FitH"
   type="application/pdf"
   width="100%"
   height="1000"

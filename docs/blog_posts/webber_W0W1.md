@@ -1,4 +1,11 @@
+---
+title: Webber, Week 0 and Week 1
+tags: [robotics, mechanisms, matlab, simscape, design]
+---
+
 # Webber, Week 0 and Week 1: From Architecture Decisions to a Build-Ready Leg
+
+**Date:** April 6, 2026.
 
 `Webber` is a wheeled bipedal robot I am building as a base platform for future autonomy and perception work.
 
@@ -104,7 +111,7 @@ For this mechanism, that meant solving the linkage through:
 
 If a candidate geometry could not hit those postures cleanly, it was not worth optimizing further.
 
-![The leg Movement](../assets/img/webber/webber_fig1.png)
+![The leg Movement](../../assets/img/webber/webber_fig1.png)
 
 ### Torque across the full operating range
 
@@ -125,9 +132,9 @@ Those scenarios covered:
 
 That was enough to rule out geometries that looked fine in one posture but fell apart when the full operating range was considered.
 
-![Posture Sweep](../assets/img/webber/webber_fig2.png)
+![Posture Sweep](../../assets/img/webber/webber_fig2.png)
 
-![Torque across all the cases](../assets/img/webber/webber_fig3.png)
+![Torque across all the cases](../../assets/img/webber/webber_fig3.png)
 
 ### Optimization, but with engineering filters
 
@@ -154,7 +161,7 @@ A mechanism can look acceptable at hold points and still become poor once it mov
 
 That gave me a much better sense of whether the chosen geometry was only statically acceptable or actually usable in motion.
 
-![Torque during Dynamic validation](../assets/img/webber/webber_fig4.png)
+![Torque during Dynamic validation](../../assets/img/webber/webber_fig4.png)
 
 ### Simscape as a validation layer
 
@@ -192,8 +199,8 @@ The current peak static torques are:
 
 That is a useful result because it is strong enough for mechanical handoff, but it is not pretending to be the final answer to everything.
 
-<video width="640" height="480" controls>
-  <source src="../assets/img/webber/webber_phase1_demo.mp4" type="video/mp4">
+<video width="100%" controls preload="metadata">
+  <source src="../../assets/img/webber/webber_phase1_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
@@ -225,3 +232,9 @@ After that, the project can branch in one of two directions:
 Either way, the project is in a much better position because the early decisions were validated before the expensive design work started.
 
 That was the point of splitting the work this way.
+
+---
+
+<div class="backbar" markdown>
+[:material-arrow-left: Back to Blogs](../blogs.md){ .md-button }
+</div>

@@ -5,7 +5,7 @@ tags: [pose-estimation, multiview, yolo, triangulation, bop, ipd]
 
 # Bin-Picking Model for 6DoF Pose Estimation
 
-## Info "At a glance"        
+## At a glance
 
 - **Goal:** Estimate **6-DoF pose** of known parts for **bin-picking**, so a robot can place a grasp in SE(3) despite clutter and occlusion.
 - **Approach:** Detect/segment the target, align the CAD model to observations (keypoints/contours → **PnP**), then **refine with depth/ICP** and reject outliers by score/visibility.
@@ -14,7 +14,7 @@ tags: [pose-estimation, multiview, yolo, triangulation, bop, ipd]
 - **Failure modes:** Heavy occlusion, specular/texture-poor parts, and extreme bin clutter; runtime depends on detector & ICP settings.
 - **Next:** Multi-view fusion, uncertainty-aware grasp sampling, and on-robot validation.       
 
-If you'd like to do a deep dive further on the project, Please feel free to go through the complete write-up below.
+If you want the full details, the complete write-up is embedded below.
 
 ---
 
@@ -27,7 +27,8 @@ If you'd like to do a deep dive further on the project, Please feel free to go t
   <iframe src="../../assets/pdfs/PRCV_Project.pdf#view=FitH" title="PRCV Project Report"></iframe>
 </div>
 
-### **Credits:** Course Project presented along with Rahul Sha and Reza Farrokhi.
+### Credits
+Course project presented with Rahul Sha and Reza Farrokhi.
 ---
 
 <div class="backbar" markdown>

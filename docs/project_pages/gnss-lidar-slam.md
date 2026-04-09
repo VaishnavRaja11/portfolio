@@ -20,7 +20,7 @@ Different sensors fail differently; leveraging their **complementarity** improve
 ## System overview
 A modern LiDAR SLAM stack separates a **front end** (LiDAR odometry) and a **back end** (graph optimization with solvers like g2o, Ceres, or **GTSAM**). Sensor data flows through odometry to produce a SLAM estimate, with the back end refining poses. 
 
-Work is based on **Lego-LOAM** and incorporate lessons from **LIO-SAM** and **hdl_graph_slam**. 
+This work is based on **Lego-LOAM** and incorporates lessons from **LIO-SAM** and **hdl_graph_slam**.
 ---
 
 ## GPS integration design
@@ -80,7 +80,7 @@ Work is based on **Lego-LOAM** and incorporate lessons from **LIO-SAM** and **hd
 ---
 
 ## Credits & References
-- Project presented along with *Zhexin (Jason) Xu*. 
+- Project presented with *Zhexin (Jason) Xu*.
 - **Lego-LOAM** — Shan et al., IROS 2018. 
 - **LIO-SAM** — Shan et al., IROS 2020. 
 - **hdl_graph_slam** — Koide et al., IJARS 2019. 

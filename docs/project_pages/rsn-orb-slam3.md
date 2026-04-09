@@ -112,7 +112,7 @@ We tested in order of complexity: **EuRoC → KITTI → NUance**. Evaluation was
 
 ## Credits & Assets
 
-- Presented the project along with Tarun Srinivasan and Thomas Rowan 
+- Presented the project with Tarun Srinivasan and Thomas Rowan.
 - **Demo:** DROID-SLAM on NUance.
 <div class="video-embed">
   <iframe

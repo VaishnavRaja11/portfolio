@@ -1,0 +1,18 @@
+.venv/
+.venvportfolio/
+site/
+__pycache__/
+*.py[cod]
+.Python
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+.coverage
+.coverage.*
+htmlcov/
+
+# OS/editor noise
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
