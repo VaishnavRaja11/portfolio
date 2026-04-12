@@ -11,6 +11,7 @@ My work sits at the intersection of hardware and software. On the hardware side,
 What I keep coming back to is the full loop: identify the problem, model it, prototype something physical, write the software to drive it, test it against real constraints, and iterate until the demo is convincing and the data backs it up. I'm comfortable with ambiguity, fast timelines, and the kind of R&D where you're making hardware and software decisions in parallel because neither can wait for the other.
 
 Right now I'm looking for robotics roles where I can own subsystems end-to-end - from the math and the mechanism through the integration and validation. I'm most drawn to teams building autonomous systems, surgical or medical robotics, or industrial automation where hardware and software decisions are deeply coupled and the bar for what "working" means is high.
+
 ---
 ## Quick Navigation
 
