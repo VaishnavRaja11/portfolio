@@ -33,14 +33,14 @@ Right now I'm looking for robotics roles where I can own subsystems end-to-end -
 
 ## Got notes, ideas, or a role?
 
-If something here sparked a thought, say hello. I’m always up for **feedback** to improve the work, **interesting ideas** to collaborate on, or conversations about roles where this background fits.
+If something here sparked a thought, say hello. I’m always up for **feedback** to improve the work, **interesting ideas** to collaborate on, or conversations about roles where my background fits.
 
 </div>
 
 <!-- LEFT: Contacts (like the screenshot, but on the left) -->
 <div markdown>
 
-## Let’s keep in touch
+## Let’s get in touch
 
 - :material-email: [vaishnav.raja11@gmail.com](mailto:vaishnav.raja11@gmail.com)
 - :material-linkedin: [LinkedIn – Vaishnav Raja](https://www.linkedin.com/in/vaishnavraja/)
