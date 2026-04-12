@@ -1,6 +1,11 @@
+# Local Python environments
 .venv/
 .venvportfolio/
+
+# Generated MkDocs output
 site/
+
+# Python caches and reports
 __pycache__/
 *.py[cod]
 .Python

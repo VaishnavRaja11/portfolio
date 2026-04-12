@@ -10,7 +10,7 @@ Thoughts on robotics, engineering, and things I'm trying to figure out along the
 
     ---
 
-    April 6th 2026 · *robotics, perception*
+    April 8th 2026 · *robotics, perception*
 
     The motivation, background, process of starting work on a new robot. 
 
