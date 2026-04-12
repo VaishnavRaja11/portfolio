@@ -1,4 +1,4 @@
-# Webber Topology Study: Five Mechanisms, Two Contact Models, One Build Decision
+# Webber - A Wheeled Bi-Pedal Robot(WBR): Topology Study and Optimization
 
 **Date:** April 8, 2026.
 
@@ -192,7 +192,7 @@ After MATLAB validation, the mechanism went into Simscape Multibody to verify th
 For both mode-specific geometries, the mechanism closed correctly and moved through the posture range without issues. The purpose of this step was to confirm that the 3D model behaved as the 2D kinematics predicted before the geometry moved to CAD, not to add another round of torque analysis. Simscape motion verification was complete and remained the gate before CAD.
 
 <video width="100%" controls preload="metadata">
-  <source src="../assets/img/webber/webber_phase1_demo.mp4" type="video/mp4">
+  <source src="../../assets/img/webber/webber_phase1_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
