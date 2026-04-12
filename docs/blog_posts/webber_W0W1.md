@@ -18,7 +18,7 @@ This represented roughly three weeks of work, which was why the blog ended up lo
 
 Before getting into the results, it was worth understanding what each topology brought to the comparison and why it was included.
 
-![Mechanism lineup - 5 topologies at mid-stance, same scale](../../assets/img/webber/fig2_mechanism_lineup.png)
+![Mechanism lineup - 5 topologies at mid-stance, same scale](../assets/img/webber/fig2_mechanism_lineup.png)
 
 All five were drawn at mid-stance (`h = 300 mm`) in wheel-row contact geometry, at consistent scale. That figure was there for a reason. Where the joints sat relative to the wheel, how much of the linkage extended laterally, and how the anti-parallelogram coupler crossed were the structural differences the optimizer worked with, and they were not visible in a cost score.
 
@@ -49,7 +49,7 @@ Two topologies in this study swapped ranks between rows. A single-configuration 
 
 ## What the Numbers Showed
 
-![Peak torque summary - both contact rows, thermal limit marked](../../assets/img/webber/fig1_peak_torque.png)
+![Peak torque summary - both contact rows, thermal limit marked](../assets/img/webber/fig1_peak_torque.png)
 
 The cost column was the optimizer's weighted objective: a normalized measure of actuator loading across the full posture sweep. Lower cost meant more uniform torque demand throughout the workspace, not just a lower peak at one extreme. Peak torque was reported separately because a topology could have a low cost while still producing a narrow spike that the scalar alone did not reveal.
 
@@ -89,7 +89,7 @@ Three things in the table were worth pulling apart:
 
 The cost and peak torque numbers were scalars. They did not show whether a topology's actuator demand was distributed evenly across the workspace or concentrated into a narrow window.
 
-![Torque profiles - all topologies, both contact rows](../../assets/img/webber/fig3_torque_profile.png)
+![Torque profiles - all topologies, both contact rows](../assets/img/webber/fig3_torque_profile.png)
 
 Fig. 3 showed peak joint torque versus hip height for each topology. The top row was wheel contact. The bottom row was foot contact. The comparison had to be made across columns within the same row, because the y-axis scales were consistent within each row.
 
@@ -109,7 +109,7 @@ The cost difference between unconstrained 4-bar and parallel 4-bar was marginal:
 
 ## Topology Postcards
 
-![Topology score cards - one per topology-contact cell](../../assets/img/webber/fig4_topology_postcards.png)
+![Topology score cards - one per topology-contact cell](../assets/img/webber/fig4_topology_postcards.png)
 
 There were ten cards, one per topology-contact cell, covering all five topologies across both contact rows. Each held the geometry at a reference posture, rank within row, peak torque, cost, balance term, and bound-activity flag.
 
@@ -171,7 +171,7 @@ The hip-to-wheel offset also mattered. Sweeping that offset changed both cost an
 
 So the topology study gave the direction, and the follow-on sizing study supplied the actual numbers. MATLAB validation and Simscape motion verification were the checks before CAD.
 
-![Webber leg geometry](../../assets/img/webber/webber_fig1.png)
+![Webber leg geometry](../assets/img/webber/webber_fig1.png)
 
 ### MATLAB Validation
 
@@ -179,11 +179,11 @@ This stage needed a narrower claim than the earlier draft had made.
 
 For the follow-on wheel-vs-leg sizing study, the parallel 4-bar was evaluated across three load scenarios over the full posture range (`h = 200 mm` to `h = 400 mm`): static support, `8.6°` forward lean, and `0.3 g` horizontal acceleration. Both mode-specific geometries stayed below the `5.0 Nm` transient limit, but neither stayed below the `4.0 Nm` continuous limit at the tight end of the range. Peak knee torque reached `4.98 Nm` in the wheeled geometry and `4.35 Nm` in the legged geometry. The defensible statement was that both were transient-feasible, with the knee motor as the binding actuator, not that both were fully continuous-clear across the entire sweep.
 
-![Posture Sweep](../../assets/img/webber/webber_fig2.png)
+![Posture Sweep](../assets/img/webber/webber_fig2.png)
 
 Dynamic validation needed the same scoping. The current wheeled build case passed the posture-matched static dynamic gate with a maximum ratio of `1.05` against a `1.20` threshold. The separate legged geometry did not support the same claim, because its fast crouch-to-stand case spiked far above that gate. So the wheel-vs-leg sizing study produced useful geometry direction, but it did not validate both modes dynamically.
 
-![Torque Validation](../../assets/img/webber/webber_fig4.png)
+![Torque Validation](../assets/img/webber/webber_fig4.png)
 
 ### Simscape Motion Verification
 
@@ -192,7 +192,7 @@ After MATLAB validation, the mechanism went into Simscape Multibody to verify th
 For both mode-specific geometries, the mechanism closed correctly and moved through the posture range without issues. The purpose of this step was to confirm that the 3D model behaved as the 2D kinematics predicted before the geometry moved to CAD, not to add another round of torque analysis. Simscape motion verification was complete and remained the gate before CAD.
 
 <video width="100%" controls preload="metadata">
-  <source src="../../assets/img/webber/webber_phase1_demo.mp4" type="video/mp4">
+  <source src="../assets/img/webber/webber_phase1_demo.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
