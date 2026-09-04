@@ -6,6 +6,16 @@ Thoughts on robotics, engineering, and things I'm trying to figure out along the
 
 <div class="grid cards" markdown>
 
+-   :material-robot-industrial: **Webber: CAD, Structure, and the First Printed Build**
+
+    ---
+
+    September 4th 2026 · *robotics, mechanical design, prototyping*
+
+    How the optimized leg became a physical robot—and why the geometry and material changed along the way.
+
+    [:octicons-arrow-right-24: Read](blog_posts/webber_W2.md)
+
 -   :material-robot: **Webber : The Wheeled Bi-Pedal Robot**
 
     ---
